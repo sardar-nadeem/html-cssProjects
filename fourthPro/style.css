@@ -1,0 +1,68 @@
+.navbar {
+    background:white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    padding: 15px 30px 15px 30px;
+  }
+  
+  .navbar-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 30px; /* Adjust the size of the logo */
+    height: 30px; /* Adjust the size of the logo */
+    margin-right: 10px;
+  }
+  
+  .name {
+    font-size: 18px; 
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  a{
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-right:25px ;
+  }
+  
+  .navbar-right {
+    display: flex;
+  }
+  
+  .nav-link {
+    margin-left: 10px; 
+  }
+
+  .main{
+    display: block;
+    justify-content: center;
+    max-width: 1200px; 
+    margin: 10px auto; 
+    padding: 20px; 
+    background-color:white; 
+  }
+  .text-main{
+    max-width: 900px;
+    margin: 20px 20px 10px 40px ;
+
+  }
+  .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+ 
+  }
+
+  footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+  }

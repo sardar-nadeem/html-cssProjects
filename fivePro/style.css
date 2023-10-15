@@ -1,0 +1,98 @@
+
+.navbar {
+    background:white;
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+    padding: 10px;
+    padding: 15px 30px 15px 30px;
+  }
+  .navbar-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 30px; 
+    height: 30px; /* Adjust the size of the logo */
+    margin-right: 10px;
+  }
+  
+  .name {
+    font-size: 18px; 
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  a{
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-right:25px ;
+  }
+  
+  .navbar-right {
+    display: flex;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+  }
+  .first-card{
+    display: flex;
+    max-width: 1000px;
+    padding: 20px;
+
+  }
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+  
+  .card-img{
+    padding: 20px;
+  }
+  .card-text{
+    padding: 20px;
+  }
+  .text-main{
+    display: flex;
+    flex-direction: column;
+    width: 811px;
+    
+    justify-content: center;
+   
+
+  }
+  .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+ 
+  }
+  .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 400px;
+  }
+  .text-card{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: center;
+    padding-left: 45px;
+    max-width: 400px;
+  }
+
+  footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+  }

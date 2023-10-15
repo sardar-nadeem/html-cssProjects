@@ -1,0 +1,99 @@
+body{
+width: 728px;
+height: 1989px;
+margin: 0;
+background: #EDEDED; 
+margin-left: 20px;
+
+
+}
+
+.card{
+    display: flex;
+    justify-content: space-between;
+    background:linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    border-bottom: 1px solid #C6C6C6;
+    width: 375px;
+    height: 67px;
+    /* padding: 10px; */
+    margin-top: 20px;
+    align-items: center;
+    margin-bottom: 0;
+
+   
+
+}
+
+.card > div:nth-child(2) {
+    margin-left: auto;
+  
+}
+.card > div:nth-child(3){
+    height: 10px;
+    width: 10px;
+    padding-right: 20px;
+
+    
+
+}
+#id{
+    margin-right: 10px;
+}
+.card1{
+
+    width: 376px;
+    height: 590px;
+    background: #FFFFFF;
+    padding-top: 10px;
+    margin-top: 0;
+
+    
+
+}
+.name{
+    display: flex;
+    padding: 5px;
+    margin: 10px;
+}
+
+.name img{
+    padding-right:10px ;
+}
+
+
+.card1 > div:nth-child(2){
+    font-size: 13px;
+    /* border: 3px solid gold; */
+    margin-bottom: 30px;
+    
+
+}
+.card1 > div:nth-child(3){
+    /* border: 3px solid gold; */
+    margin-top: 20px;
+}
+.card1 > div:nth-child(4){
+    padding-top: 5opx;
+
+}
+
+#profile{
+    border-radius: 60%;
+}
+.likes img {
+   padding: 7px;
+    
+
+}
+
+.likes1{
+    padding: 10px;
+    font-size: 15px;
+}
+
+#last{
+
+    padding-bottom: 20px;
+    
+}
+
